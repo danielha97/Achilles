@@ -6,7 +6,7 @@ cross.forEach((cancel)=>{
     cancel.addEventListener("click",(e)=>{
         let hidden = e.currentTarget.parentElement.parentElement.parentElement;
         hidden.classList.remove("show-plan");
-        console.log(hidden);
+        event.preventDefault();
     })
     
 });
@@ -15,7 +15,7 @@ planBtn.forEach((plan)=>{
     plan.addEventListener("click",(e)=>{
     let display = e.currentTarget.parentElement.childNodes[7]
     display.classList.add("show-plan");
-    console.log(plan);
+    event.preventDefault();
     });
 });
 

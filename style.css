@@ -8,6 +8,7 @@
   scroll-behavior: smooth;
 }
 
+
 .logo {
   height: 100px;
 }
@@ -739,4 +740,342 @@ padding-left: 50px;
   color: #f3eded;
   margin-top: 50px;
   text-align: center;
+}
+
+
+@media all and (max-width:1200px) {
+h2{
+  margin-left: 10%;
+  font-size: 5rem;;
+}
+.buttons{
+  margin-left: 9%;
+}
+
+h3{
+  font-size: 3rem;
+}
+.app-container{
+  display: block;
+}
+
+.signup-bar{
+  width: 440px;
+}
+
+.iphone{
+  width: 500px;
+  margin-left: 50px;
+}
+
+.downloads{
+margin-left: 105px;
+}
+
+.app-section{
+  margin: 45% 25% 0 25%;
+}
+.app-steps{
+  margin-top: 0px;
+}
+
+.app-step{
+  width: 50px;
+  height: 50px;
+  margin-left: 275px;
+}
+
+.app-step p{
+font-size: 50%;
+}
+
+.plan-container{
+  height: 175vh;
+}
+
+.classes-container{
+  height: 250vh;
+}
+
+.container .card{
+  width: 250px;
+  height: 380px;
+}
+
+.container .card .content .plan{
+  font-size: 3em;
+}
+.review h3{
+  font-size: 3rem;
+}
+
+.image-container img{
+  width: 200px;
+  height: 200px;
+}
+
+.plan-text{
+  width: 600px;
+}
+
+.plan-content .btn-full{
+  bottom:350px
+}
+
+.image{
+  height: 30vh;
+}
+
+.class .details{
+  padding:0 8%;
+}
+
+
+.location-city img{
+  height: 180px;
+}
+
+.question{
+  width: 45%;
+}
+
+.question-title p{
+  font-size: 20px;
+}
+.form{
+  padding-left: 80px;
+}
+
+.login-buttons{
+  margin-left: 80px;
+}
+
+.btn:link, .btn:visited{
+  padding: 5px 30px;
+}
+
+.button-text p{
+  padding: 0 100px;
+}
+
+@media all and (max-width:768px) {
+
+.title{
+  padding-left: 15%;
+} 
+
+.main-nav{
+  display: block;
+  margin: auto;
+}
+.main-nav ul{
+  margin-left: 50px;
+}
+
+.main-nav ul li{
+  font-size: 130%;
+  padding: 60px 20px 20px 50px;
+}
+h2{
+  font-size: 4rem;
+  margin-left: 14%;
+}
+.buttons{
+  margin-left: 15%;
+}
+
+.iphone{
+  width: 400px;
+  margin-left: -15px;
+}
+
+.downloads{
+  margin-left: -5px;
+  display: flex;
+  }
+
+  .app-step{
+    width: 50px;
+    height: 50px;
+    margin-left: 165px;
+  }
+
+  .container .card {
+    width: 200px;
+    height: 380px;
+  }
+
+  .footer-box{
+    margin: 35px 30px;
+  }
+
+  .container .card{
+    margin: 10px;
+  }
+
+  .plan-container p{
+
+    padding: 0 10%;
+  }
+  .container .card .content p{
+    font-size: 70%;
+  }
+
+  .container .card .content .plan{
+    font-size: 2em;
+  }
+  .image-container img{
+    width: 180px;
+    height: 180px;
+  }
+  .button-container{
+    margin-top: 40px;
+  }
+
+  .plan-text{
+    width: 400px;
+  }
+  .plan-text img{
+    display: none;
+  }
+  .plan-text ul{
+    padding: 10px;
+    list-style: none;
+  }
+  .plan-content .btn-full {
+    bottom: 430px;
+  }
+
+  .classes-container {
+    height: 270vh;
+}
+.login-container {
+  height: 110vh;
+}
+.login-room{
+  height: 55vh;
+}
+
+.button-text p {
+  font-size: 13px;
+}
+}
+
+@media all and (max-width:480px) {
+.title {
+    padding-left: 0%;
+}
+.main-nav ul {
+    margin-left: 0px;
+}
+.main-nav ul li {
+  font-size: 130%;
+  padding: 60px 20px 20px 23px;
+}
+h2 {
+  font-size: 4rem;
+  margin-left: 14%;
+}
+h3 {
+  font-size: 2.3rem;
+  margin-left: 10px;
+}
+.signup-bar{
+  margin-top: 70%;
+  width: 300px;
+} 
+.container .card .content p {
+  font-size: 90%;
+}
+.buttons {
+  margin-left: 20%;
+}
+.iphone {
+  width: 400px;
+  margin-left: -70px;
+}
+.downloads{
+  display: block;
+  margin-left: 35px;
+}
+.app-section {
+  margin: 90% 25% 0 25%;
+}
+.app-step {
+  margin-left: 110px;
+}
+.app-steps p {
+  text-align: center;
+  padding-left: 35px;
+}
+.footer-logo ul{
+  display: block;
+}
+.footer-title{
+  font-size: 23px;
+}
+.container{
+  display: block;
+  margin-left: 17%;
+}
+.container .card {
+  width: 300px;
+  height: 380px;
+  margin-top: 20px;
+}
+.plan-container {
+  height: 285vh;
+}
+
+#info{
+  width: 100%;
+}
+.plan-text {
+  width: 250px;
+  height: 350px;
+}
+.plan-content{
+  height: 60%;
+  width: 90%;
+}
+.cross{
+  right: 10%
+}
+.plan-content .btn-full{
+  bottom: 330px;
+}
+.classes-container {
+  height: 300vh;
+}
+.location-box{
+  display: block;
+}
+.location-container{
+  height: 340vh;
+}
+.location-container p {
+  padding: 0 10%;
+}
+.location-city img{
+  margin-left: 100px;
+}
+.question{
+  width: 80%;
+}
+.question-title p {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.login-house {
+  padding: 0;
+}
+.form{
+  padding-left:0px;
+}
+.form input{
+ margin-left: 100px;
+}
+.login-buttons {
+  margin-left: 0;
+}
 }
