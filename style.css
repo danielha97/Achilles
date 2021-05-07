@@ -517,6 +517,9 @@ color: white;
 .show-text .plus{
   display: none;
 }
+.review{
+
+}
 
 .review-container h4{
   text-align: center;
@@ -537,7 +540,7 @@ color: white;
 }
 .button-container {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 0px;
 }
 .button-container button{
   background-color: transparent;
@@ -630,6 +633,7 @@ text-align: center;
 
 .footer-container{
   background-color: rgb(17, 16, 16);
+  padding-top: 80px;
 }
 
 .footer-box{
@@ -740,6 +744,34 @@ padding-left: 50px;
   color: #f3eded;
   margin-top: 50px;
   text-align: center;
+}
+
+
+
+@media all and (max-width:1340px) {
+
+  .plan-text{
+    width: 750px;
+  }
+  .plan-content .btn-full{
+    bottom: 300px;
+  }
+  .button-container{
+    margin-top: 0;
+  }
+  .footer-container{
+    margin-top:0px;
+  }
+  .classes-container{
+    height: 300vh;
+  }
+  .question{
+    width: 45%;
+  }
+}
+.location-container{
+  height: 180vh;
+}
 }
 
 
